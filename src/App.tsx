@@ -9,7 +9,7 @@ const App = () => {
     <div className="flex-center w-screen h-screen overflow-hidden bg-muted">
       <div className="relative w-[425px] h-[900px] bg-white">
         <Routes>
-          <Route path="/main" element={<MainPage />} />
+          <Route path="/" element={<MainPage />} />
           <Route path="/chart/:id" element={<DetailPage />} />
           <Route path="/community/:id" element={<DetailPage />} />
           <Route path="/event/:id" element={<DetailPage />} />
